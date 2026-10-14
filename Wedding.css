@@ -1,0 +1,146 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+/* 2nd Section Start */
+.sefon{
+    font-size: 65px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.rotate {
+    width: 250px;
+    height: 250px;
+    animation: spin 19s linear infinite;
+}
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+.sbac{
+    background-image: url("/Illustration/image.865813f418baf1b84396.jpg");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;  
+    background-size: 100% 100%;
+}
+/* 2nd section End */
+/* 3rd section Start */
+.thtex{
+    font-size: 50px;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+}
+.thstex{
+    font-size: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.thfimg{
+    width: 250px;
+    height: 270px;
+}
+.thsimg{
+    width: 230px;
+    height: 240px;
+}
+/* 3rd Section End */
+/* 4th Section Start */
+.fobac{
+    background-color:mintcream;
+    padding: 30px;
+}
+.fotex{
+    font-family: 'Times New Roman', Times, serif;
+}
+/* 4th Section End */
+/* 5th Section Start */
+.fitext{
+    font-size: 75px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.fiimg{
+    transform: rotate(35deg);
+    height: 240px;
+    width: 240px;
+    margin: 45px;
+}
+/* 5th Section End */
+/* 7th Section Start */
+.sebg{
+    background-color: azure;
+}
+.seftex{
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.settex{
+    font-size: 25px;
+    font-family:'Courier New', Courier, monospace;
+}
+.sestex{
+    font-size: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* 7th Section End */
+/* 8th Section Start */
+.sebox {
+    animation: upDown 4s infinite ease-in-out;
+}
+@keyframes upDown {
+  0% {
+    transform: translateY(0px);
+  }
+    25%{
+    transform: translateY(-20px);
+  }
+  50%{
+    transform: translateY(0);
+  }
+    75%{
+    transform: translateY(20px);
+  }
+  100%{
+    transform: translateY(0px);
+  }
+}
+.sesbox {
+    animation: downUp 4s infinite ease-in-out;
+}
+@keyframes downUp {
+  0% {
+    transform: translateY(0px);
+  }
+    25%{
+    transform: translateY(20px);
+  }
+  50%{
+    transform: translateY(0);
+  }
+    75%{
+    transform: translateY(-20px);
+  }
+  100%{
+    transform: translateY(0px);
+  }
+}
+/* 8th Section End */
+/* 9th Section Start */
+.nibg{
+    background-color: palevioletred;
+}
+.niftex{
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.nistxt{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* 9th Section End */
